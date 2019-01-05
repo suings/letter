@@ -1,0 +1,42 @@
+﻿<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>气球</title>
+  <link rel="stylesheet" href="css/index.css">
+  <link href="https://cdn.bootcss.com/animate.css/3.7.0/animate.css" rel="stylesheet">
+  <!-- 一个动画效果库 -->
+
+  <script type="text/javascript" src="js/wmgwdw.js"></script>
+  <!-- 气球特效需要的第三方js -->
+
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+  <!-- 一个工具类js库 -->
+</head>
+
+<body>
+  <div class="main-1 animated bounceInLeft slow">
+    <div class="content">
+      <div class="title">Welcome</div>
+      <div class="top"></div>
+      <img src="media/heart.png" class="heart" onclick="tocontent()">
+      <div class="bottom"></div>
+    </div>
+  </div>
+  <div class="main-2">
+    <div class="date">
+      我们已经一起走过了: <span>999</span> 天 <span>23</span> 小时 <span>59</span> 分 <span>59</span> 秒
+    </div>
+    <div id="autoprint">
+      <h1>哈喽, 某某某!</h1>
+      <p>在煽情开始之前, 先放首歌当背景音乐吧! Music!</p>
+      <p>哈哈哈哈你自己想吧</p>
+    </div>
+    <audio src="media/music.mp3" id="music"></audio>
+  </div>
+  <script src="js/bganimate.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>

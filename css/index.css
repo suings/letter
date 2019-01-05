@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.main-1 {
+  display: hidden;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0);
+  bottom: 30%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  padding: .5rem 2rem;
+}
+
+.main-2 {
+  min-width: 500px;
+  display: none;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0);
+  bottom: 50%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  border: 5px solid black;
+  padding: .5rem 2rem;
+  background: white;
+}
+
+/* 首页框架部分 */
+
+.heart {
+  width: 40px;
+  height: 40px;
+  z-index: 999;
+  position: absolute;
+  left: 225px;
+  top: 130px;
+  cursor: pointer;
+  -webkit-animation: pound .25s infinite alternate;
+  animation: pound .25s infinite alternate;
+}
+
+@-webkit-keyframes pound {
+  to {
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+  }
+}
+
+@keyframes pound {
+  to {
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+  }
+}
+
+/* 首页中间的心形特效部分  */
+
+.title {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: -30%;
+  font-size: 24px;
+}
+
+/* 首页的标题 */
+
+.content {
+  width: 500px;
+  height: 300px;
+  border: 3px solid pink;
+  position: fixed;
+  left: 35%;
+  -webkit-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  bottom: 30%;
+  border-radius: 10px;
+  -webkit-box-shadow: 4px 4px 2px #888888;
+  box-shadow: 4px 4px 2px #888888;
+  background-color: white;
+  font-weight: 900;
+}
+
+.top {
+  width: 0;
+  height: 0;
+  border-left: 252px solid transparent;
+  border-right: 250px solid transparent;
+  border-top: 160px solid pink;
+  border-radius: 10px;
+  position: absolute;
+  left: -5px;
+  top: -1px;
+}
+
+.bottom {
+  width: 0;
+  height: 0;
+  border-left: 250px solid transparent;
+  border-right: 254px solid transparent;
+  border-bottom: 150px solid pink;
+  border-radius: 10px;
+  position: absolute;
+  bottom: -1px;
+  left: -4px;
+}
+
+/* 首页的信封部分*/
+
+/* 首页部分结束 */
+
+/* 以下为第二页的样式 */
+
+.date {
+  position: absolute;
+  right: 10px;
+}
+
+.date>span {
+  font-size: 1.5em;
+  color: aquamarine;
+}
+
+/* 次页的日期样式 */
+
+#autoprint {
+  width: 700px;
+  /* height: 700px; */
+  padding-top: 36px;
+
+}
+
+#autoprint>h1 {
+  text-align: left;
+}
+
+/* 次页的文字部分,自己修改 */

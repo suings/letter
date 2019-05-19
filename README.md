@@ -1,4 +1,4 @@
-# 未来的cv工程师的cv项目
+# 随手crtl+cv
 ## 效果预览
 [DEMO项目](https://suings.github.io/letter/)
 
